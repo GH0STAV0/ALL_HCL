@@ -7,5 +7,5 @@ trap "echo oh;exit" SIGTERM SIGINT
 while true
 do
 	echo "NEW ..............."
-	timeout 45m python3 test.py
+	python3 ads_t0r_vpn.py
 done

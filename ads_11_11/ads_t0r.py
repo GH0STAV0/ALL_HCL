@@ -143,7 +143,9 @@ def lets_play(serv,ops):
 		print(len(driver.window_handles))
 
 		#input()
-		time.sleep(22)
+		time.sleep(25)
+		driver.get("https://inspiring-brattain-1201ff.netlify.app/")
+		time.sleep(15)
 		driver_len = len(driver.window_handles) #fetching the Number of Opened tabs
 		print("Length of Driver = ", driver_len)
 		if driver_len > 1:
@@ -161,7 +163,7 @@ def lets_play(serv,ops):
 		time.sleep(5)
 	except Exception as error:
 		print(str(error))
-	driver.get("https://inspiring-brattain-1201ff.netlify.app/")
+	
 	time.sleep(15)
 
 

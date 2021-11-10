@@ -91,7 +91,8 @@ def lets_play(serv,ops):
 	try:
 		
 		#print(ops)
-		extension_path="/root/OUOIO/BVB/src/canvasblocker44b.xpi"
+		# extension_path="/root/OUOIO/BVB/src/canvasblocker44b.xpi"
+		extension_path=cnf_bvb.extension_path
 		driver = webdriver.Firefox(service=serv, options=ops)
 		driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 		driver.set_page_load_timeout(79)

@@ -1,0 +1,310 @@
+1636548502706	geckodriver	INFO	Listening on 127.0.0.1:54177
+1636548503942	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1920", "--height=1080"]
+1636548513954	Marionette	INFO	Listening on port 36887
+1636548514329	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: PLEASE DO NOT RUN THIS AS ROOT.  Strange things may happen when capabilities are dropped.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_lose_context'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_depth_texture'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript error: https://www.gstatic.com/recaptcha/releases/kcXVPRWG7fMILHmzon0--fD3/recaptcha__en.js, line 100: TypeError: x.L is null
+1636548600793	Marionette	INFO	New connections will no longer be accepted
+1636548893239	geckodriver	INFO	Listening on 127.0.0.1:51769
+1636548894404	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=480", "--height=800"]
+1636548900379	geckodriver	INFO	Listening on 127.0.0.1:57255
+1636548901612	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=720", "--height=1280"]
+1636548906920	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636548908189	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 532985, tid 532985, syscall 315, args 532985 140331243352256 56 0 60 140331243352256.
+Sandbox: seccomp sandbox violation: pid 532985, tid 532985, syscall 332, args 39 140331496379186 4096 1 140731262406832 140331243568448.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFE8CE78F00, 4096)
+Sandbox: seccomp sandbox violation: pid 532985, tid 532985, syscall 262, args 39 140331496379186 140731262406400 4096 4096 1.
+1636548915691	Marionette	INFO	Listening on port 42777
+1636548915729	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636548915795	Marionette	DEBUG	Register listener.js for window 2147483649
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 12:55:29.212: /root/EXTRA/firefox-53.0b9/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1636548933795	geckodriver	INFO	Listening on 127.0.0.1:53577
+1636548934964	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1284", "--height=2778"]
+1636548939600	Marionette	INFO	Listening on port 45559
+1636548939705	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: PLEASE DO NOT RUN THIS AS ROOT.  Strange things may happen when capabilities are dropped.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_lose_context'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_depth_texture'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+WebGL(0x7f9577ee8800)::ForceLoseContext
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript error: https://static.bc.game/static/js/main.995b4ff4.chunk.js, line 1: TypeError: invalid arguments
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL: No further warnings will be reported for this WebGL context. (already reported 32 warnings)
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1636549124671	Marionette	INFO	New connections will no longer be accepted
+[Child 533178] WARNING: pipe error (3): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1636549342452	geckodriver	INFO	Listening on 127.0.0.1:43947
+1636549343656	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1920", "--height=1080"]
+1636549344294	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636549344782	Marionette	INFO	Enabled via --marionette
+1636549347342	Marionette	INFO	Listening on port 39383
+1636549348821	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636549361421	geckodriver	INFO	Listening on 127.0.0.1:56017
+1636549362572	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=540", "--height=960"]
+1636549363178	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636549363714	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 533707, tid 533707, syscall 315, args 533707 140020745384128 56 0 60 140020745384128.
+Sandbox: seccomp sandbox violation: pid 533707, tid 533707, syscall 332, args 39 140020998120242 4096 1 140728050459408 140020745522928.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFDCD752160, 4096)
+Sandbox: seccomp sandbox violation: pid 533707, tid 533707, syscall 262, args 39 140020998120242 140728050458976 4096 4096 1.
+1636549366428	Marionette	INFO	Listening on port 43437
+1636549368270	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636549368328	Marionette	DEBUG	Register listener.js for window 2147483649
+Gdk-Message: 05:02:52.797: /root/EXTRA/firefox-53.0b9/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1636549377439	geckodriver	INFO	Listening on 127.0.0.1:37473
+1636549378614	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=5120", "--height=2880"]
+1636549384227	Marionette	INFO	Listening on port 37085
+1636549384294	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: PLEASE DO NOT RUN THIS AS ROOT.  Strange things may happen when capabilities are dropped.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_lose_context'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_depth_texture'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+Gdk-Message: 05:04:06.917: /root/EXTRA/firefox-53.0.2/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1636549452429	geckodriver	INFO	Listening on 127.0.0.1:42889
+1636549453600	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1080", "--height=2280"]
+1636549454528	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636549455093	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 534111, tid 534111, syscall 315, args 534111 140325338820416 56 0 1 140325338820416.
+Sandbox: seccomp sandbox violation: pid 534111, tid 534111, syscall 332, args 39 140325591622450 4096 1 140729470315360 140325339025136.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFE221669B0, 4096)
+Sandbox: seccomp sandbox violation: pid 534111, tid 534111, syscall 262, args 39 140325591622450 140729470314928 4096 4096 1.
+1636549457525	Marionette	INFO	Listening on port 45857
+1636549457551	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636549457616	Marionette	DEBUG	Register listener.js for window 2147483649
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 13:04:21.530: /root/EXTRA/firefox-53.0b9/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1636549468539	geckodriver	INFO	Listening on 127.0.0.1:36391
+1636549469717	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1024", "--height=600"]
+1636549470312	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636549470934	Marionette	INFO	Enabled via --marionette
+1636549473195	Marionette	INFO	Listening on port 35571
+1636549473254	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636549488453	Marionette	INFO	New connections will no longer be accepted
+1636549499172	geckodriver	INFO	Listening on 127.0.0.1:59023
+1636549500338	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1080", "--height=2400"]
+1636549500933	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636549530566	geckodriver	INFO	Listening on 127.0.0.1:44261
+1636549537478	geckodriver	INFO	Listening on 127.0.0.1:57303
+1636549538648	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=2560", "--height=1600"]
+1636549539246	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636549539796	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 534860, tid 534860, syscall 315, args 534860 140447816691520 56 0 1 140447816691520.
+Sandbox: seccomp sandbox violation: pid 534860, tid 534860, syscall 332, args 39 140448069378866 4096 1 140732160079632 140447816904432.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFEC268F560, 4096)
+Sandbox: seccomp sandbox violation: pid 534860, tid 534860, syscall 262, args 39 140448069378866 140732160079200 4096 4096 1.
+1636549542353	Marionette	INFO	Listening on port 46079
+1636549544210	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636549544266	Marionette	DEBUG	Register listener.js for window 2147483649
+1636549590459	geckodriver	INFO	Listening on 127.0.0.1:38621
+1636549595839	geckodriver	INFO	Listening on 127.0.0.1:54627
+1636549596992	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1440", "--height=3200"]
+1636549601793	Marionette	INFO	Listening on port 41177
+1636549601852	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: PLEASE DO NOT RUN THIS AS ROOT.  Strange things may happen when capabilities are dropped.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_lose_context'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_depth_texture'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1636549670434	Marionette	INFO	New connections will no longer be accepted
+[Child 535296] WARNING: pipe error (3): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1636549681227	geckodriver	INFO	Listening on 127.0.0.1:58691
+1636549682409	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1080", "--height=2340"]
+1636549687113	Marionette	INFO	Listening on port 35797
+1636549687166	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: PLEASE DO NOT RUN THIS AS ROOT.  Strange things may happen when capabilities are dropped.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_lose_context'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_depth_texture'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+Gdk-Message: 05:09:01.621: /root/EXTRA/firefox-53.0.2/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1636549750851	geckodriver	INFO	Listening on 127.0.0.1:38661
+1636549752020	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1242", "--height=2688"]
+1636549752611	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636549753238	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 535797, tid 535797, syscall 315, args 535797 140606978993984 56 0 1 140606978993984.
+Sandbox: seccomp sandbox violation: pid 535797, tid 535797, syscall 332, args 39 140607232021298 4096 1 140721803540000 140606979206896.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFC591CB470, 4096)
+Sandbox: seccomp sandbox violation: pid 535797, tid 535797, syscall 262, args 39 140607232021298 140721803539568 4096 4096 1.
+1636549755748	Marionette	INFO	Listening on port 37053
+1636549757334	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636549757391	Marionette	DEBUG	Register listener.js for window 2147483649
+1636549800962	geckodriver	INFO	Listening on 127.0.0.1:44655
+1636549802141	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1125", "--height=2436"]
+1636549806826	Marionette	INFO	Listening on port 40053
+1636549806899	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript error: https://cryptouniverse.io/ae/facebook.js, line 79: SyntaxError: expected property name, got '...'
+1636549935046	Marionette	INFO	New connections will no longer be accepted
+1636549969311	geckodriver	INFO	Listening on 127.0.0.1:37671
+1636549970464	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1024", "--height=600"]
+1636549975070	Marionette	INFO	Listening on port 40505
+1636549975219	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+Gdk-Message: 05:16:51.656: /root/EXTRA/firefox-53.0.2/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1636550217277	geckodriver	INFO	Listening on 127.0.0.1:51697
+1636550218452	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=480", "--height=800"]
+1636550225923	geckodriver	INFO	Listening on 127.0.0.1:42213
+1636550227093	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1170", "--height=2532"]
+1636550232161	Marionette	INFO	Listening on port 36171
+1636550232301	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+WebGL(0x7f281b435000)::ForceLoseContext
+JavaScript error: https://static.bc.game/static/js/main.995b4ff4.chunk.js, line 1: TypeError: invalid arguments
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL: No further warnings will be reported for this WebGL context. (already reported 32 warnings)
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Sandbox: PLEASE DO NOT RUN THIS AS ROOT.  Strange things may happen when capabilities are dropped.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_lose_context'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_depth_texture'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1636550336991	Marionette	INFO	New connections will no longer be accepted
+1636550343372	geckodriver	INFO	Listening on 127.0.0.1:37325
+1636550344544	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1080", "--height=1920"]
+1636550349161	Marionette	INFO	Listening on port 39719
+1636550349213	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+JavaScript warning: https://cdn2.editmysite.com/js/site/main.js?buildTime=1633380165, line 4: unreachable code after return statement
+WebGL(0x7fad79f91000)::ForceLoseContext
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL warning: texImage2D: Conversion requires pixel reformatting.
+JavaScript warning: https://static.bc.game/static/js/pixi.78186db0.chunk.js, line 2: Error: WebGL: No further warnings will be reported for this WebGL context. (already reported 32 warnings)
+JavaScript error: https://static.bc.game/static/js/main.995b4ff4.chunk.js, line 1: TypeError: invalid arguments
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+Sandbox: PLEASE DO NOT RUN THIS AS ROOT.  Strange things may happen when capabilities are dropped.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_lose_context'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_depth_texture'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
+1636550451027	Marionette	INFO	New connections will no longer be accepted

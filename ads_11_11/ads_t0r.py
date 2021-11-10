@@ -99,12 +99,17 @@ def lets_play(serv,ops):
 		driver.maximize_window()#
 		driver.install_addon(extension_path, True)
 		# driver.get("https://inspiring-brattain-1201ff.netlify.app/")
-		driver.get("https://inspiring-brattain-1201ff.netlify.app/")
+		driver.get("https://elated-nobel-943d26.netlify.app/index.html")
 		#input("")
 		time.sleep(15)
 		#print(driver.execute_script("return navigator.userAgent;"))
 		driver.get(urls_BVB)
+		
+		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="active"]/a')))
+		getLink_button.click()
 		time.sleep(15)
+		print("click on home")
+		driver.get(urls_BVB)
 
 		
 		###############
@@ -120,10 +125,13 @@ def lets_play(serv,ops):
 		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="368839048817395185"]')))
 		time.sleep(5)
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
+		# input("")
 		
 		action = ActionChains(driver)
 		action.move_to_element(getLink_button).perform()
 		time.sleep(5)
+		#active
+		# input("")
 		
 		getLink_button.click()
 		#input('oprn url')
@@ -151,6 +159,8 @@ def lets_play(serv,ops):
 		time.sleep(5)
 	except Exception as error:
 		print(str(error))
+	driver.get("https://inspiring-brattain-1201ff.netlify.app/")
+	time.sleep(15)
 
 
 
@@ -221,8 +231,8 @@ def stage_1():
 
 def starting_tasks():
 	try:
-		os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
 		stage_1()### CLEAR
+		os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
 		# mod_vpn.fnc_vpn ()
 		mod_vpn.renew_connection()
 		serv,ops=mod_driver.build_driver(width ,height)

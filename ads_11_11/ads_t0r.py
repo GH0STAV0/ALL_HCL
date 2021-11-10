@@ -96,10 +96,10 @@ def lets_play(serv,ops):
 		driver = webdriver.Firefox(service=serv, options=ops)
 		driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 		# driver.set_page_load_timeout(79)
-		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
-		driver.maximize_window()#
 		driver.install_addon(extension_path, True)
+		# driver.maximize_window()#
 		time.sleep(5)
+		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
 		# driver.get("https://inspiring-brattain-1201ff.netlify.app/")
 		driver.get("https://elated-nobel-943d26.netlify.app/index.html")
 		#input("")

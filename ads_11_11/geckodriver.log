@@ -614,3 +614,29 @@ JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: W
 1636714693749	Marionette	DEBUG	Received DOM event "unload" for "https://ipinfo.io/ip"
 JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
 1636714693815	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://elated-nobel-943d26.netlify.app/"
+1636714703532	Marionette	DEBUG	Received DOM event "pageshow" for "https://elated-nobel-943d26.netlify.app/"
+1636714718562	Marionette	DEBUG	Received DOM event "beforeunload" for "https://elated-nobel-943d26.netlify.app/"
+1636714722295	Marionette	DEBUG	Received DOM event "pagehide" for "https://elated-nobel-943d26.netlify.app/"
+1636714722297	Marionette	DEBUG	Received DOM event "unload" for "https://elated-nobel-943d26.netlify.app/"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636714722346	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636714723029	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1636714723032	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1636714723035	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636714723832	Marionette	DEBUG	Received DOM event "pageshow" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+1636714738870	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+1636714742669	Marionette	DEBUG	Received DOM event "pagehide" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+1636714742670	Marionette	DEBUG	Received DOM event "unload" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636714742740	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://wild-beauty.weebly.com/about.html"
+1636714742744	Marionette	DEBUG	Received DOM event "pageshow" for "https://wild-beauty.weebly.com/about.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636714776839	geckodriver	INFO	Listening on 127.0.0.1:37571
+1636714778040	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1242", "--height=2688"]
+1636714782702	Marionette	INFO	Listening on port 45711
+1636714782786	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636714940197	Marionette	INFO	New connections will no longer be accepted
+[Child 666667] WARNING: pipe error (3): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346

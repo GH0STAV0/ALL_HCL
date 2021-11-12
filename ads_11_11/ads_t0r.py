@@ -19,8 +19,8 @@ import pickle
 ###########global urls_BVB
 # urls_BVB=cnf_bvb.random_url
 #####################################
-urls_BVB="https://wild-beauty.weebly.com/about.html"
-
+# urls_BVB="https://wild-beauty.weebly.com/about.html"
+urls_BVB="https://pedantic-wescoff-chat-covid19.netlify.app/"
 # random_display_chose=cnf_bvb.random_display_chose
 # width=cnf_bvb.width
 # height=cnf_bvb.height

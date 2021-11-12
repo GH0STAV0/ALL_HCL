@@ -73,6 +73,10 @@ def build_driver():
 	return serv ,ops
 
 
+def clean_up():
+	os.system("rm -rf /tmp/*")
+	os.system("rm geckodriver.log")
+	os.system("rm -rf rm -rf __pycache__/")
 
 def lets_play(serv,ops):
 
@@ -250,9 +254,11 @@ def starting_tasks():
 		os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
 		#build_driver()###### BUILDING DRIVER
 		lets_play(serv,ops)
+		clean_up()
 
 	except Exception as error:
 		print (str(error))
 os.system("rm -rf /tmp/*") 
 starting_tasks()
+clean_up()
 #starting_tasks()

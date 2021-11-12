@@ -308,3 +308,170 @@ JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pr
 JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
 JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_depth_texture'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
 1636550451027	Marionette	INFO	New connections will no longer be accepted
+1636702560923	geckodriver	INFO	Listening on 127.0.0.1:55095
+1636702562182	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=2732", "--height=2048"]
+1636702566343	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636702567525	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 656730, tid 656730, syscall 315, args 656730 139633617350528 56 0 0 139633617350528.
+Sandbox: seccomp sandbox violation: pid 656730, tid 656730, syscall 332, args 39 139633870873394 4096 1 140722478947184 139633617567088.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFC815E99C0, 4096)
+Sandbox: seccomp sandbox violation: pid 656730, tid 656730, syscall 262, args 39 139633870873394 140722478946752 4096 4096 1.
+1636702572833	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1636702575657	Marionette	INFO	Listening on port 36777
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1636702575708	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636702575777	Marionette	DEBUG	Register listener.js for window 2147483649
+1636702580311	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1636702581762	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1636702581885	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1636702581909	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1636702581912	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1636702582680	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=proxyConnectFailure&u=https%3A//elated-nobel-943d26.netlify.app/index.html&c=UTF-8&f=regular&d=Firefox%20is%20configured%20to%20use%20a%20proxy%20server%20that%20is%20refusing%20connections."
+1636702623643	Marionette	INFO	New connections will no longer be accepted
+[Child 656730] WARNING: pipe error (16): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1636702646767	geckodriver	INFO	Listening on 127.0.0.1:38341
+1636702647982	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1680", "--height=1050"]
+1636702657518	Marionette	INFO	Listening on port 39605
+1636702657599	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gdk-Message: 23:38:04.506: /root/EXTRA/firefox-53.0.2/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1636702796531	geckodriver	INFO	Listening on 127.0.0.1:56463
+1636702797696	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1920", "--height=1200"]
+1636702798317	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636702798886	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 657228, tid 657228, syscall 315, args 657228 139799679283072 56 0 0 139799679283072.
+Sandbox: seccomp sandbox violation: pid 657228, tid 657228, syscall 332, args 39 139799931970354 4096 1 140725013766688 139799679487728.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFD1874E070, 4096)
+Sandbox: seccomp sandbox violation: pid 657228, tid 657228, syscall 262, args 39 139799931970354 140725013766256 4096 4096 1.
+1636702801449	Marionette	INFO	Listening on port 45529
+1636702805067	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636702805121	Marionette	DEBUG	Register listener.js for window 2147483649
+1636702810484	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1636702819489	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1636702819491	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1636702819705	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636702837185	Marionette	DEBUG	Received DOM event "pageshow" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636702852239	Marionette	DEBUG	Received DOM event "beforeunload" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636702854863	Marionette	DEBUG	Received DOM event "pagehide" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636702854865	Marionette	DEBUG	Received DOM event "unload" for "https://elated-nobel-943d26.netlify.app/index.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636702854936	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://wild-beauty.weebly.com/about.html"
+1636702854939	Marionette	DEBUG	Received DOM event "pageshow" for "https://wild-beauty.weebly.com/about.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+Sandbox: Unexpected EOF, op 2 flags 00 path /etc/localtime
+Gdk-Message: 07:42:00.076: /root/EXTRA/firefox-53.0b9/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1636702925777	geckodriver	INFO	Listening on 127.0.0.1:54215
+1636702926940	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=3000", "--height=2000"]
+1636702927577	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636702928177	Marionette	INFO	Enabled via --marionette
+1636702930697	Marionette	INFO	Listening on port 43825
+1636702932665	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636703037401	Marionette	INFO	New connections will no longer be accepted
+1636707578555	geckodriver	INFO	Listening on 127.0.0.1:58247
+1636707579725	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1080", "--height=1920"]
+1636707580365	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636707581047	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 658525, tid 658525, syscall 315, args 658525 140482225712960 56 0 1 140482225712960.
+Sandbox: seccomp sandbox violation: pid 658525, tid 658525, syscall 332, args 39 140482478228274 4096 1 140722688447488 140482225917680.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFC8DDB5250, 4096)
+Sandbox: seccomp sandbox violation: pid 658525, tid 658525, syscall 262, args 39 140482478228274 140722688447056 4096 4096 1.
+1636707583633	Marionette	INFO	Listening on port 46091
+1636707586004	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636707586058	Marionette	DEBUG	Register listener.js for window 2147483649
+1636707591406	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1636707595614	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1636707595616	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1636707595726	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ipinfo.io/ip"
+1636707595730	Marionette	DEBUG	Received DOM event "pageshow" for "https://ipinfo.io/ip"
+1636707601215	Marionette	DEBUG	Received DOM event "beforeunload" for "https://ipinfo.io/ip"
+1636707602152	Marionette	DEBUG	Received DOM event "pagehide" for "https://ipinfo.io/ip"
+1636707602153	Marionette	DEBUG	Received DOM event "unload" for "https://ipinfo.io/ip"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636707602249	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636707605257	Marionette	DEBUG	Received DOM event "pageshow" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636707620295	Marionette	DEBUG	Received DOM event "beforeunload" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636707621888	Marionette	DEBUG	Received DOM event "pagehide" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636707621890	Marionette	DEBUG	Received DOM event "unload" for "https://elated-nobel-943d26.netlify.app/index.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636707622030	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://wild-beauty.weebly.com/about.html"
+1636707622033	Marionette	DEBUG	Received DOM event "pageshow" for "https://wild-beauty.weebly.com/about.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+Gdk-Message: 01:00:54.005: /root/EXTRA/firefox-53.0b9/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1636707658986	geckodriver	INFO	Listening on 127.0.0.1:46151
+1636707660136	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1280", "--height=800"]
+1636707660769	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636707661376	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 658719, tid 658719, syscall 315, args 658719 140259931795264 56 0 1 140259931795264.
+Sandbox: seccomp sandbox violation: pid 658719, tid 658719, syscall 332, args 39 140260185203506 4096 1 140730546306112 140259932008176.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFE6238BA90, 4096)
+Sandbox: seccomp sandbox violation: pid 658719, tid 658719, syscall 262, args 39 140260185203506 140730546305680 4096 4096 1.
+1636707667146	Marionette	INFO	Listening on port 33319
+1636707667185	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636707667233	Marionette	DEBUG	Register listener.js for window 2147483649
+1636707672579	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1636707675475	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1636707675476	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1636707675552	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ipinfo.io/ip"
+1636707675556	Marionette	DEBUG	Received DOM event "pageshow" for "https://ipinfo.io/ip"
+1636707681120	Marionette	DEBUG	Received DOM event "beforeunload" for "https://ipinfo.io/ip"
+1636707682450	Marionette	DEBUG	Received DOM event "pagehide" for "https://ipinfo.io/ip"
+1636707682451	Marionette	DEBUG	Received DOM event "unload" for "https://ipinfo.io/ip"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636707682518	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636707687577	Marionette	DEBUG	Received DOM event "pageshow" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636707702622	Marionette	DEBUG	Received DOM event "beforeunload" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636707704052	Marionette	DEBUG	Received DOM event "pagehide" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636707704054	Marionette	DEBUG	Received DOM event "unload" for "https://elated-nobel-943d26.netlify.app/index.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636707704112	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://wild-beauty.weebly.com/about.html"
+1636707704115	Marionette	DEBUG	Received DOM event "pageshow" for "https://wild-beauty.weebly.com/about.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636707769964	Marionette	INFO	New connections will no longer be accepted
+[Child 658719] WARNING: pipe error (16): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 658719] WARNING: pipe error (3): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1636707850335	geckodriver	INFO	Listening on 127.0.0.1:50419
+1636707851468	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1440", "--height=2560"]
+1636707852089	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636707852704	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 658948, tid 658948, syscall 315, args 658948 139953927958336 56 0 1 139953927958336.
+Sandbox: seccomp sandbox violation: pid 658948, tid 658948, syscall 332, args 39 139954180760370 4096 1 140726907476192 139953928163056.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFD89549730, 4096)
+Sandbox: seccomp sandbox violation: pid 658948, tid 658948, syscall 262, args 39 139954180760370 140726907475760 4096 4096 1.
+1636707855347	Marionette	INFO	Listening on port 44485
+1636707858446	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636707858502	Marionette	DEBUG	Register listener.js for window 2147483649
+1636707863865	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1636707874472	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1636707874473	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1636707874551	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ipinfo.io/ip"
+1636707874555	Marionette	DEBUG	Received DOM event "pageshow" for "https://ipinfo.io/ip"
+1636707880578	Marionette	DEBUG	Received DOM event "beforeunload" for "https://ipinfo.io/ip"
+1636707894093	Marionette	DEBUG	Received DOM event "pagehide" for "https://ipinfo.io/ip"
+1636707894094	Marionette	DEBUG	Received DOM event "unload" for "https://ipinfo.io/ip"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636707894151	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636707902870	Marionette	DEBUG	Received DOM event "pageshow" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636707917916	Marionette	DEBUG	Received DOM event "beforeunload" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636707921021	Marionette	DEBUG	Received DOM event "pagehide" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636707921022	Marionette	DEBUG	Received DOM event "unload" for "https://elated-nobel-943d26.netlify.app/index.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636707921084	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://wild-beauty.weebly.com/about.html"
+1636707921086	Marionette	DEBUG	Received DOM event "pageshow" for "https://wild-beauty.weebly.com/about.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!

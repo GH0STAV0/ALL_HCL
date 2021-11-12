@@ -78,7 +78,7 @@ def lets_play(serv,ops):
 
 	try:
 		print("OPEN DISPLAY  WEB-SITE ...... ",end='')
-		display = Display(visible=1, size=(width,height)).start()
+		display = Display(visible=0, size=(width,height)).start()
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
 
 
@@ -100,8 +100,6 @@ def lets_play(serv,ops):
 		# driver.maximize_window()#
 		time.sleep(5)
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
-		driver.get("https://ipinfo.io/ip")
-		time.sleep(5)
 		# driver.get("https://inspiring-brattain-1201ff.netlify.app/")
 		driver.get("https://elated-nobel-943d26.netlify.app/index.html")
 		#input("")
@@ -238,9 +236,9 @@ def stage_1():
 def starting_tasks():
 	try:
 		stage_1()### CLEAR
-		os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
-		# mod_vpn.fnc_vpn ()
-		mod_vpn.renew_connection()
+		# os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
+		mod_vpn.fnc_vpn ()
+		# mod_vpn.renew_connection()
 		serv,ops=mod_driver.build_driver(width ,height)
 		os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
 		#build_driver()###### BUILDING DRIVER

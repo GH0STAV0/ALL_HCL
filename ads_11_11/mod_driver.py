@@ -56,8 +56,14 @@ def build_driver(width,height):
 		#firefox_options = Firefox_Options()		
 		ops.add_argument(moz_wid)
 		ops.add_argument(moz_hig)
-		fp.set_preference('network.proxy.socks', '127.0.0.1')
-		fp.set_preference('network.proxy.socks_port', 9150)
+		my_proxy="127.0.01:9050"
+		ipp,pport=my_proxy.split(':')
+		fp.set_preference('network.proxy.type', 1)
+		fp.set_preference('network.proxy.socks', ipp)
+		fp.set_preference('network.proxy.socks_port', int(pport))
+
+		# fp.set_preference('network.proxy.socks', '127.0.0.1')
+		# fp.set_preference('network.proxy.socks_port', 9150)
 		fp.set_preference("dom.webdriver.enabled", False)
 		fp.set_preference('useAutomationExtension', False)
 		#fp.set_preference("http.response.timeout",95)

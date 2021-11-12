@@ -104,8 +104,8 @@ def lets_play(serv,ops):
 		# driver.maximize_window()#
 		time.sleep(5)
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
-		driver.get("https://ipinfo.io/ip")
-		time.sleep(5)
+		# driver.get("https://ipinfo.io/ip")
+		# time.sleep(5)
 		# driver.get("https://inspiring-brattain-1201ff.netlify.app/")
 		driver.get("https://elated-nobel-943d26.netlify.app/index.html")
 		#input("")

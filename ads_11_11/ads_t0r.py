@@ -123,6 +123,7 @@ def lets_play(serv,ops):
 		print("click on home")
 		# input("get id")
 		driver.get(urls_BVB)
+		time.sleep(5)
 
 		
 		###############

@@ -308,3 +308,25 @@ JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pr
 JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_compressed_texture_s3tc'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
 JavaScript warning: https://cdn.jsdelivr.net/npm/@fingerprintjs/fingerprintjs-pro@3/dist/fp.min.js, line 8: Error: WebGL warning: getExtension('MOZ_WEBGL_depth_texture'): MOZ_ prefixed WebGL extension strings are deprecated. Support for them will be removed in the future. Use unprefixed extension strings. To get draft extensions, set the webgl.enable-draft-extensions preference.
 1636550451027	Marionette	INFO	New connections will no longer be accepted
+1636723802437	geckodriver	INFO	Listening on 127.0.0.1:51317
+1636723803561	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1280", "--height=800"]
+1636723804942	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636723805715	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 675389, tid 675389, syscall 315, args 675389 140339732623232 56 0 0 140339732623232.
+Sandbox: seccomp sandbox violation: pid 675389, tid 675389, syscall 332, args 39 140339985310514 4096 1 140732029951872 140339732872656.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFEBAA75DD0, 4096)
+Sandbox: seccomp sandbox violation: pid 675389, tid 675389, syscall 262, args 39 140339985310514 140732029951440 4096 4096 1.
+1636723812565	Marionette	INFO	Listening on port 45257
+1636723812645	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636723812711	Marionette	DEBUG	Register listener.js for window 2147483649
+1636723818328	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1636723821865	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1636723821867	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1636723822008	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636723835905	Marionette	DEBUG	Received DOM event "pageshow" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636723850972	Marionette	DEBUG	Received DOM event "beforeunload" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636723858042	Marionette	DEBUG	Received DOM event "pagehide" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636723858042	Marionette	DEBUG	Received DOM event "unload" for "https://elated-nobel-943d26.netlify.app/index.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+Gdk-Message: 02:30:58.925: /root/EXTRA/firefox-53.0b9/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+

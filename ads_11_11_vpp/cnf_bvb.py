@@ -20372,9 +20372,9 @@ pwd = os.path.dirname(os.path.realpath( __file__ ))
 
 
 ########################################
-# p_vpn_g=pwd+"/CHEAP_VPN/"
+p_vpn_g=pwd+"/CHEAP_VPN/"
 
-p_vpn_g=pwd+"/N0RD/WORKING_CONFIG/"
+# p_vpn_g=pwd+"/N0RD/WORKING_CONFIG/"
 
 ########################################
 

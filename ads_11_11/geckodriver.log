@@ -640,3 +640,114 @@ JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: W
 1636714782786	Marionette	WARN	TLS certificate errors will be ignored for this session
 1636714940197	Marionette	INFO	New connections will no longer be accepted
 [Child 666667] WARNING: pipe error (3): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1636714986116	geckodriver	INFO	Listening on 127.0.0.1:37151
+1636714987297	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=2048", "--height=1536"]
+1636714992489	Marionette	INFO	Listening on port 44461
+1636714992544	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636715261363	geckodriver	INFO	Listening on 127.0.0.1:50955
+1636715262537	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1280", "--height=720"]
+1636715263119	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636715263801	Marionette	INFO	Enabled via --marionette
+1636715266228	Marionette	INFO	Listening on port 33915
+1636715266273	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636715266332	Marionette	DEBUG	Register listener.js for window 2147483649
+1636715271709	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1636715283152	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1636715283153	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1636715283232	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ipinfo.io/ip"
+1636715283236	Marionette	DEBUG	Received DOM event "pageshow" for "https://ipinfo.io/ip"
+1636715288870	Marionette	DEBUG	Received DOM event "beforeunload" for "https://ipinfo.io/ip"
+1636715292211	Marionette	DEBUG	Received DOM event "pagehide" for "https://ipinfo.io/ip"
+1636715292212	Marionette	DEBUG	Received DOM event "unload" for "https://ipinfo.io/ip"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636715292272	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://elated-nobel-943d26.netlify.app/"
+1636715298717	Marionette	DEBUG	Received DOM event "pageshow" for "https://elated-nobel-943d26.netlify.app/"
+1636715313752	Marionette	DEBUG	Received DOM event "beforeunload" for "https://elated-nobel-943d26.netlify.app/"
+1636715315720	Marionette	DEBUG	Received DOM event "pagehide" for "https://elated-nobel-943d26.netlify.app/"
+1636715315723	Marionette	DEBUG	Received DOM event "unload" for "https://elated-nobel-943d26.netlify.app/"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636715315800	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636715316114	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1636715316117	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636715316120	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636715319572	Marionette	DEBUG	Received DOM event "pageshow" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+1636715334626	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+1636715335178	Marionette	DEBUG	Received DOM event "pagehide" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+1636715335179	Marionette	DEBUG	Received DOM event "unload" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636715335261	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pedantic-wescoff-chat-covid19.netlify.app/"
+1636715335638	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483663"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636715340604	Marionette	DEBUG	Received DOM event "pageshow" for "https://pedantic-wescoff-chat-covid19.netlify.app/"
+1636715406225	Marionette	INFO	New connections will no longer be accepted
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636715541655	geckodriver	INFO	Listening on 127.0.0.1:42893
+1636715542825	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1440", "--height=2560"]
+1636715547717	Marionette	INFO	Listening on port 37829
+1636715547765	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1636715670643	geckodriver	INFO	Listening on 127.0.0.1:43213
+1636715671809	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=4096", "--height=2304"]
+1636715676928	Marionette	INFO	Listening on port 38103
+1636715676973	Marionette	WARN	TLS certificate errors will be ignored for this session
+Warning: An attempt was made to write to the DEVTOOLS_COPY_FULL_CSS_SELECTOR_OPENED_COUNT histogram, which is not defined in Histograms.json
+
+(firefox:667556): Gtk-CRITICAL **: 03:16:38.934: gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+1636715802976	Marionette	INFO	New connections will no longer be accepted
+1636715810570	geckodriver	INFO	Listening on 127.0.0.1:38579
+1636715811693	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1280", "--height=720"]
+1636715816231	Marionette	INFO	Listening on port 43767
+1636715816334	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636715949888	Marionette	INFO	New connections will no longer be accepted
+[Child 667801] WARNING: pipe error (3): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1636716089603	geckodriver	INFO	Listening on 127.0.0.1:35391
+1636716090773	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=1920", "--height=1080"]
+1636716091267	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636716091812	Marionette	INFO	Enabled via --marionette
+1636716094401	Marionette	INFO	Listening on port 46773
+1636716094508	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636716094611	Marionette	DEBUG	Register listener.js for window 2147483649
+1636716099944	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1636716104506	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1636716104507	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1636716104587	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ipinfo.io/ip"
+1636716104591	Marionette	DEBUG	Received DOM event "pageshow" for "https://ipinfo.io/ip"
+1636716110229	Marionette	DEBUG	Received DOM event "beforeunload" for "https://ipinfo.io/ip"
+1636716113580	Marionette	DEBUG	Received DOM event "pagehide" for "https://ipinfo.io/ip"
+1636716113581	Marionette	DEBUG	Received DOM event "unload" for "https://ipinfo.io/ip"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636716113678	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636716121116	Marionette	DEBUG	Received DOM event "pageshow" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636716136154	Marionette	DEBUG	Received DOM event "beforeunload" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636716138542	Marionette	DEBUG	Received DOM event "pagehide" for "https://elated-nobel-943d26.netlify.app/index.html"
+1636716138543	Marionette	DEBUG	Received DOM event "unload" for "https://elated-nobel-943d26.netlify.app/index.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636716138606	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636716140990	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1636716140992	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636716140994	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636716142706	Marionette	DEBUG	Received DOM event "pageshow" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+1636716157757	Marionette	DEBUG	Received DOM event "beforeunload" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+1636716158600	Marionette	DEBUG	Received DOM event "pagehide" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+1636716158602	Marionette	DEBUG	Received DOM event "unload" for "https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636716158658	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://pedantic-wescoff-chat-covid19.netlify.app/"
+JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636716159448	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483661"
+1636716159624	Marionette	DEBUG	Received DOM event "pageshow" for "https://pedantic-wescoff-chat-covid19.netlify.app/"
+1636716225505	Marionette	INFO	New connections will no longer be accepted
+[Child 667982] WARNING: pipe error (19): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 667982] WARNING: pipe error (3): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1636716239614	geckodriver	INFO	Listening on 127.0.0.1:38015
+1636716240788	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=2560", "--height=1600"]
+1636716245433	Marionette	INFO	Listening on port 36097
+1636716245532	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.gstatic.com/recaptcha/releases/yZguKF1TiDm6F3yJWVhmOKQ9/recaptcha__en.js, line 346: TypeError: P.Z is null

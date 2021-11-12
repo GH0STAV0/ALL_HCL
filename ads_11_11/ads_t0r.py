@@ -103,7 +103,7 @@ def lets_play(serv,ops):
 		driver.get("https://ipinfo.io/ip")
 		time.sleep(5)
 		# driver.get("https://inspiring-brattain-1201ff.netlify.app/")
-		driver.get("https://elated-nobel-943d26.netlify.app")
+		driver.get("https://elated-nobel-943d26.netlify.app/index.html")
 		#input("")
 		time.sleep(15)
 		driver.get("https://pedantic-wescoff-chat-covid19.netlify.app/index.html")
@@ -111,13 +111,13 @@ def lets_play(serv,ops):
 		
 		time.sleep(15)
 		#print(driver.execute_script("return navigator.userAgent;"))
-		driver.get(urls_BVB)
+		#driver.get(urls_BVB)
 		
 		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'top-banner')))
 		getLink_button.click()
 		time.sleep(15)
 		print("click on home")
-		input("get id")
+		# input("get id")
 		driver.get(urls_BVB)
 
 		

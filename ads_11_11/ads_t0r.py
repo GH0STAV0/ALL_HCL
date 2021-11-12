@@ -20,7 +20,7 @@ import pickle
 # urls_BVB=cnf_bvb.random_url
 #####################################
 # urls_BVB="https://wild-beauty.weebly.com/about.html"
-urls_BVB="https://pedantic-wescoff-chat-covid19.netlify.app/"
+urls_BVB="https://pedantic-wescoff-chat-covid19.netlify.app/index.html"
 # random_display_chose=cnf_bvb.random_display_chose
 # width=cnf_bvb.width
 # height=cnf_bvb.height
@@ -106,16 +106,16 @@ def lets_play(serv,ops):
 		driver.get("https://elated-nobel-943d26.netlify.app/index.html")
 		#input("")
 		time.sleep(15)
-		driver.get("https://pedantic-wescoff-chat-covid19.netlify.app/index.html")
+		# driver.get("https://pedantic-wescoff-chat-covid19.netlify.app/index.html")
 
 		
-		time.sleep(15)
+		# time.sleep(15)
 		#print(driver.execute_script("return navigator.userAgent;"))
 		#driver.get(urls_BVB)
 		
-		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'top-banner')))
-		getLink_button.click()
-		time.sleep(15)
+		# getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'top-banner')))
+		# getLink_button.click()
+		# time.sleep(15)
 		print("click on home")
 		# input("get id")
 		driver.get(urls_BVB)
@@ -131,7 +131,7 @@ def lets_play(serv,ops):
 	print("CHECK THE getLink_button WEB-SITE ...... ",end='')
 	try:
 		#######getLink
-		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.XPATH, '//*[@id="368839048817395185"]')))
+		getLink_button=WebDriverWait(driver, 25).until(EC.presence_of_element_located((By.ID, 'top-banner')))
 		time.sleep(5)
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
 		# input("")

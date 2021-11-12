@@ -475,3 +475,29 @@ JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: W
 JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
 JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
 JavaScript error: resource://gre/modules/ExtensionParent.jsm, line 778: Error: WebExtension context not found!
+1636710116707	geckodriver	INFO	Listening on 127.0.0.1:32961
+1636710117904	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1920", "--height=1200"]
+1636710129483	Marionette	INFO	Listening on port 43313
+1636710129657	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gdk-Message: 01:44:06.004: /root/EXTRA/firefox-53.0.2/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1636710269086	geckodriver	INFO	Listening on 127.0.0.1:49761
+1636710270262	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0.2/firefox/firefox with args ["-marionette", "--width=1920", "--height=1200"]
+1636710275135	Marionette	INFO	Listening on port 38923
+1636710275212	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636710387770	Marionette	INFO	New connections will no longer be accepted
+[Child 661806] WARNING: pipe error (3): Connection reset by peer: file /home/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 346
+1636711791572	geckodriver	INFO	Listening on 127.0.0.1:36499
+1636711792738	geckodriver::marionette	INFO	Starting browser /root/EXTRAT/firefox-53.0b9/firefox/firefox with args ["-marionette", "--width=2048", "--height=1536"]
+1636711794327	addons.xpi	WARN	Exception running bootstrap method startup on clicktoplay-rollout@mozilla.org: [Exception... "Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIPrefBranch.getStringPref]"  nsresult: "0x8000ffff (NS_ERROR_UNEXPECTED)"  location: "JS frame :: resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js :: defineCohort :: line 49"  data: no] Stack trace: defineCohort()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:49 < startup()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///root/EXTRA/firefox-53.0b9/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi!/bootstrap.js:40 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4391 < startup()@resource://gre/modules/addons/XPIProvider.jsm:2229 < callProvider()@resource://gre/modules/AddonManager.jsm:269 < _startProvider()@resource://gre/modules/AddonManager.jsm:739 < startup()@resource://gre/modules/AddonManager.jsm:906 < startup()@resource://gre/modules/AddonManager.jsm:3090 < observe()@jar:file:///root/EXTRA/firefox-53.0b9/firefox/omni.ja!/components/addonManager.js:65
+1636711795090	Marionette	INFO	Enabled via --marionette
+Sandbox: seccomp sandbox violation: pid 663143, tid 663143, syscall 315, args 663143 140419838586688 56 0 1 140419838586688.
+Sandbox: seccomp sandbox violation: pid 663143, tid 663143, syscall 332, args 39 140420091388722 4096 1 140732884469648 140419838791408.
+Sandbox: unsupported fd-relative fstatat(39, "", 0x7FFEED9645E0, 4096)
+Sandbox: seccomp sandbox violation: pid 663143, tid 663143, syscall 262, args 39 140420091388722 140732884469216 4096 4096 1.
+1636711803131	Marionette	INFO	Listening on port 46015
+1636711803232	Marionette	WARN	TLS certificate errors will be ignored for this session
+1636711803307	Marionette	DEBUG	Register listener.js for window 2147483649
+1636711808804	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1636711827240	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

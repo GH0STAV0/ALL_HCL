@@ -250,7 +250,7 @@ def starting_tasks():
 		stage_1()### CLEAR
 		# os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
 		mod_vpn.fnc_vpn ()
-		mod_vpn.renew_connection()
+		# mod_vpn.renew_connection()
 		serv,ops=mod_driver.build_driver(width ,height)
 		# os.system("curl -sx socks5://127.0.0.1:9050 ifconfig.co | grep -oP '(?<=Your IP</span>: ).*(?=</span>)'")
 		#build_driver()###### BUILDING DRIVER

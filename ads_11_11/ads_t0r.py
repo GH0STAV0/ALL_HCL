@@ -113,7 +113,7 @@ def lets_play(serv,ops):
 		# driver.get("https://pedantic-wescoff-chat-covid19.netlify.app/index.html")
 
 		
-		# time.sleep(15)
+		# time.sleep(15) nnn
 		#print(driver.execute_script("return navigator.userAgent;"))
 		#driver.get(urls_BVB)
 		

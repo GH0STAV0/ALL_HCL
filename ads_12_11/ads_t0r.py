@@ -82,7 +82,7 @@ def lets_play(serv,ops):
 
 	try:
 		print("OPEN DISPLAY  WEB-SITE ...... ",end='')
-		display = Display(visible=1, size=(width,height)).start()
+		display = Display(visible=0, size=(width,height)).start()
 		print(emoji.emojize("Ok "' :check_mark_button: :alien:'))
 
 
@@ -155,7 +155,7 @@ def lets_play(serv,ops):
 		print(len(driver.window_handles))
 
 		#input()
-		time.sleep(25)
+		time.sleep(15)
 		driver.get("https://inspiring-brattain-1201ff.netlify.app/")
 		time.sleep(15)
 		driver_len = len(driver.window_handles) #fetching the Number of Opened tabs
